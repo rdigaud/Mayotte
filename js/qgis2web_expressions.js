@@ -754,17 +754,3 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
-
-
-
-function Toponymie_Mayotte_4rule0_eval_expression(context) {
-    // TMP = '1'
-
-    var feature = context.feature;
-    
-    if (feature.properties) {
-        return (feature.properties['TMP']  == '1');
-    } else {
-        return (feature['TMP']  == '1');
-    }
-}
